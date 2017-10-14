@@ -1,5 +1,11 @@
 # Interview.samples
 
+I've created this repository to start resolving riddles from interviews on which I'll be in the future.
+
+# Description of the riddles
+1. When array got 2 or less element method/function should return 0. In other cases it should return second smallest value from the array.
+Result can be seen here: https://github.com/Harry180/Interview.samples/blob/master/getValue.sample.js
+
 Steps to run tests:
 1. Install node
 2. Run commands:
