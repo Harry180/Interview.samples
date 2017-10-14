@@ -1,5 +1,11 @@
 var getValueFunc = function(array) {
-    return array.length <= 2 ? 0 : null;
+    if(array.length <= 2){
+        return 0;
+    }
+
+    array.sort(function(a, b){ return a -b;});
+
+    return array[1];
 }
 
 module.exports = getValueFunc;
